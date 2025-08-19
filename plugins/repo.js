@@ -27,8 +27,23 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `\n*STARS:* *${repoData.stargazers_count}*\n\n*FORKS:* *${repoData.forks_count}*\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*Don't Forget To Star and Fork Repository*\n\n> *> ✆︎Pσɯҽɾҽԃ Ⴆყ NנɐႦυℓσ נႦ*`;
+        const formattedInfo = `
+*╭━━━━━━━━━━━━━━━━⊷*
+┊ ┏────────────⊷
+┊ ┊▢ʙᴏᴛ ɴᴀᴍᴇ :  *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+┊ ┊▢ᴘʀᴇғɪx : *[ . ]*
+┊ ┊▢ᴍᴏᴅᴇ :  *[public]*
+┊ ┗────────────⊷
+┊      ┏─────────⊷
+┊      ┊ *(star)*  *(${repoData.stargazers_count})*
+┊      ┊ *(forks)* *(${repoData.forks_count})*
+┊      ┗─────────⊷
+╰┬━━━━━━━━━━━━⊷⳹
+┌┤git *(${repoData.html_url})*
+┊╰─────────────⊷
+*╰━━━━━━━━━━━━━━━━━⊷*
 
+> *✆︎Pσɯҽɾҽԃ Ⴆყ NנɐႦυℓσ נႦ* `;
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
