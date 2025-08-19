@@ -39,14 +39,14 @@ async (conn, mek, m, { from, reply }) => {
 ┊      ┊ *(forks)* *(${repoData.forks_count})*
 ┊      ┗─────────⊷
 ╰┬━━━━━━━━━━━━⊷⳹
-┌┤git *(${repoData.html_url})*
+┌┤git *(njabulo-repo.vercel.app)*
 ┊╰─────────────⊷
 *╰━━━━━━━━━━━━━━━━━⊷*
 
 > *✆︎Pσɯҽɾҽԃ Ⴆყ NנɐႦυℓσ נႦ* `;
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+            image: { url: `https://files.catbox.moe/0mmreh.jpg` },
             caption: formattedInfo,
                        contextInfo: {
               isForwarded: true,
