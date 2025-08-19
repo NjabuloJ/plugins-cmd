@@ -2,7 +2,7 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 
 cmd({
-    pattern: "pingl",
+    pattern: "ping",
     alias: ["speedl","pongl"],use: '.ping',
     desc: "Check bot's response time.",
     category: "main",
