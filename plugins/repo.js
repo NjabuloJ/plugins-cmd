@@ -33,14 +33,21 @@ async (conn, mek, m, { from, reply }) => {
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
             caption: formattedInfo,
-            contextInfo: { 
-                mentionedJid: [m.sender],
+                       contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
                 forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363399999197102@newsletter',
-                    newsletterName: '╭••➤®Njabulo Jb',
-                    serverMessageId: 143
+                externalAdReply: {
+                    title: "🖥️ᴛᴇꜱᴛ ʙᴏᴛ ꜱᴘᴇᴇᴅ",
+                    body: "🏓ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
                 }
             }
         }, { quoted: {
@@ -51,9 +58,8 @@ async (conn, mek, m, { from, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
-                }
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`    
+            }
             }
         } });
 
@@ -61,17 +67,7 @@ async (conn, mek, m, { from, reply }) => {
         await conn.sendMessage(from, {
             audio: { url: 'https://files.catbox.moe/mflouf.mp3' },
             mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363399999197102@newsletter',
-                    newsletterName: '╭••➤®Njabulo Jb',
-                    serverMessageId: 143
-                }
-            }
+            ptt: true
         }, { quoted: {
             key: {
                 fromMe: false,
