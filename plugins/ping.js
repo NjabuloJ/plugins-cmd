@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, sender, reply, }) => {
                 externalAdReply: {
                     title: "🖥️ᴛᴇꜱᴛ ʙᴏᴛ ꜱᴘᴇᴇᴅ",
                     body: "🏓ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
-                    thumbnailUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
                     mediaType: 1,
                     renderSmallThumbnail: true
