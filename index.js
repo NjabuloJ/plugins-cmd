@@ -110,8 +110,47 @@ console.log("Session downloaded ✅")
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there ✦ CASEY ✦ RHODES ✦ XMD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by CASEYRHODES TECH INC. \ud83c\udf8a, Meet ✦ CASEYRHODES XMD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ CASEY ✦ RHODES XMD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/caseyweb/CASEYRHODES-XMD\n\n> © Powered BY ✦ CASEYRHODES ✦ XMD ✦ \ud83d\udda4`;
-  conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/NdGZ99mN/705f0162-de6f-4fb8-a78f-6c563969093c.jpg` }, caption: up })
+  let up = `
+┏──────────────⊷
+┊ ɴᴀᴍᴇ : *ɴנɐႦυℓσ נႦ is online*
+┗──────⊷
+┏ *【 ᴅᴇᴠɪᴄᴇ ᴏɴʟɪɴᴇ 】⇳︎*
+┗
+┏──────⊷
+┊ *[ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ʟɪɴᴋᴇᴅ ᴅᴇᴠɪᴄᴇ]*
+┗──────────────⊷`;
+    conn.sendMessage(conn.user.id, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: up,
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ᴛᴇꜱᴛ ʙᴏᴛ ᴀʟɪᴠᴇ ᴜᴩᴛɪᴍᴇ",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
   }
   })
   conn.ev.on('creds.update', saveCreds)  
