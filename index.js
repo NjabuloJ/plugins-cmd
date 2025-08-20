@@ -206,7 +206,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
     if (autobio === 'on') {
       const updateBio = () => {
         const date = new Date()
-        const bioText = `📅 DATE/TIME: ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} | DAY: ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})} | Njabulo Jb HUB REPRESENTS CONSTANCY EVEN IN CHAOS⚡`
+        const bioText = `📅 ᴅᴀᴛᴇ/ᴛɪᴍᴇ: ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} | DAY: ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})} | ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴅᴇᴠɪᴄᴇ💻📡`
         
         conn.updateProfileStatus(bioText)
           .then(() => console.log('Bio updated successfully'))
