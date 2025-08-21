@@ -120,7 +120,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
   conn.ev.on('creds.update', saveCreds)  
           
 
-	/=============readstatus=======
+	//=============readstatus=======
         
   conn.ev.on('messages.upsert', async(mek) => {
     mek = mek.messages[0]
