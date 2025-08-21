@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-//           CRISS-AI  
+//           Njabulo Jb 
 //---------------------------------------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
@@ -19,8 +19,39 @@ cmd({
     filename: __filename
 },
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     if (status === "on") {
         config.ADMIN_EVENTS = "true";
@@ -41,8 +72,40 @@ cmd({
     filename: __filename
 },
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator) 
+   
+        await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     if (status === "on") {
         config.WELCOME = "true";
@@ -63,11 +126,73 @@ cmd({
     category: "settings",
     filename: __filename,
 }, async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 Only the owner can use this command!*");
-
+    if (!isCreator) 
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const newPrefix = args[0]; // Get the new prefix from the command arguments
-    if (!newPrefix) return reply("❌ Please provide a new prefix. Example: `.setprefix !`");
-
+    if (!newPrefix)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     // Update the prefix in memory
     config.PREFIX = newPrefix;
 
@@ -82,8 +207,39 @@ cmd({
     category: "settings",
     filename: __filename,
 }, async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 Only the owner can use this command!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     // Si aucun argument n'est fourni, afficher le mode actuel et l'usage
     if (!args[0]) {
         return reply(`📌 Current mode: *${config.MODE}*\n\nUsage: .mode private OR .mode public`);
@@ -109,8 +265,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     if (!["on", "off"].includes(status)) {
         return reply("*🫟 ᴇxᴀᴍᴘʟᴇ:  .ᴀᴜᴛᴏ-ᴛʏᴘɪɴɢ ᴏɴ*");
@@ -131,8 +318,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -158,8 +376,39 @@ cmd({
     filename: __filename
 },
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     if (status === "on") {
         config.ALWAYS_ONLINE = "true";
@@ -183,8 +432,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     if (!["on", "off"].includes(status)) {
         return reply("*🫟 ᴇxᴀᴍᴘʟᴇ: .ᴀᴜᴛᴏ-ʀᴇᴄᴏʀᴅɪɴɢ ᴏɴ*");
@@ -210,8 +490,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Default value for AUTO_VIEW_STATUS is "false"
     if (args[0] === "on") {
@@ -235,8 +546,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Default value for AUTO_LIKE_STATUS is "false"
     if (args[0] === "on") {
@@ -261,8 +603,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator) 
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -286,8 +659,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -313,8 +717,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -338,8 +773,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -363,8 +829,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -389,8 +886,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
@@ -414,8 +942,39 @@ cmd({
     filename: __filename
 },    
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*📛 ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*");
-
+    if (!isCreator)
+await conn.sendMessage(from, { 
+		image: { url: `https://files.catbox.moe/0ikqoy.jpg` },
+		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
+		     contextInfo: {
+              isForwarded: true,
+               forwardedNewsletterMessageInfo: {
+                 newsletterJid: '120363399999197102@newsletter',
+                   newsletterName: '╭••➤®Njabulo Jb',
+                   serverMessageId: 143
+               },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: "🖥️ setting's bot",
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
+                }
+            }
+        }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
     const status = args[0]?.toLowerCase();
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
