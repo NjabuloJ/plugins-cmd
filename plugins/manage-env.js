@@ -21,7 +21,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -75,7 +75,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator) 
    
         await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -128,7 +128,7 @@ cmd({
 }, async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator) 
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -162,7 +162,7 @@ await conn.sendMessage(from, {
     const newPrefix = args[0]; // Get the new prefix from the command arguments
     if (!newPrefix)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -209,7 +209,7 @@ cmd({
 }, async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -267,7 +267,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -320,7 +320,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -378,7 +378,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -434,7 +434,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -492,7 +492,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -548,7 +548,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -605,7 +605,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator) 
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -661,7 +661,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -719,7 +719,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -775,7 +775,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -831,7 +831,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -888,7 +888,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
@@ -944,7 +944,7 @@ cmd({
 async (conn, mek, m, { from, args, isCreator, reply }) => {
     if (!isCreator)
 await conn.sendMessage(from, { 
-		image: { url: `https://files.catbox.moe/173jef.jpeg` },
+		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
 		caption: "*(ᴏɴʟʏ ᴛʜᴇ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ)*",
 		     contextInfo: {
               isForwarded: true,
