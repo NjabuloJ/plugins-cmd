@@ -115,7 +115,7 @@ await conn.sendMessage(from, {
   
    await conn.sendMessage(from, { 
 		image: { url: `https://files.catbox.moe/0mmreh.jpg` },
-		caption: "*(Group has been muted. Only admins can send messages.".)*",
+		caption: "*(Group has been muted. Only admins can send messages)*",
 		     contextInfo: {
               isForwarded: true,
                forwardedNewsletterMessageInfo: {
