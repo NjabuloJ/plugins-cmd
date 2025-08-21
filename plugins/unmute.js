@@ -27,8 +27,8 @@ async (conn, mek, m, { from, isGroup, senderNumber, isAdmins, isBotAdmins, reply
                 externalAdReply: {
                     title: "🖥️ setting's bot",
                     body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
-                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    thumbnailUrl: "https://files.catbox.moe/aru9tq.jpg",
+                    sourceUrl: "https://www.facebook.com/profile.php?id=100094314013209",
                     mediaType: 1,
                     renderSmallThumbnail: true
                 }
@@ -60,8 +60,8 @@ async (conn, mek, m, { from, isGroup, senderNumber, isAdmins, isBotAdmins, reply
                 externalAdReply: {
                     title: "🖥️ setting's bot",
                     body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
-                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    thumbnailUrl: "https://files.catbox.moe/aru9tq.jpg",
+                    sourceUrl: "https://www.facebook.com/profile.php?id=100094314013209",
                     mediaType: 1,
                     renderSmallThumbnail: true
                 }
@@ -93,8 +93,8 @@ await conn.sendMessage(from, {
                 externalAdReply: {
                     title: "🖥️ setting's bot",
                     body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
-                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    thumbnailUrl: "https://files.catbox.moe/aru9tq.jpg",
+                    sourceUrl: "https://www.facebook.com/profile.php?id=100094314013209",
                     mediaType: 1,
                     renderSmallThumbnail: true
                 }
@@ -127,8 +127,8 @@ await conn.sendMessage(from, {
                 externalAdReply: {
                     title: "🖥️ setting's bot",
                     body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
-                    thumbnailUrl: "https://files.catbox.moe/173jef.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    thumbnailUrl: "https://files.catbox.moe/aru9tq.jpg",
+                    sourceUrl: "https://www.facebook.com/profile.php?id=100094314013209",
                     mediaType: 1,
                     renderSmallThumbnail: true
                 }
