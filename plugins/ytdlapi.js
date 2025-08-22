@@ -150,95 +150,25 @@ let ytmsg = `
 │
 ╰─ _Reply with 1 or 2 to download_ ─╯
 `;
+        await conn.sendMessage(from, { image: { url: yts.thumbnail }, caption: ytmsg,contextInfo }, { quoted: mek });
 
-            
-            await conn.sendMessage(from, { 
-            image: { url: yts.thumbnail },
-            caption: ytmsg,
-                  contextInfo: {
-                    mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363399999197102@newsletter',
-                        newsletterName: '╭••➤®Njabulo Jb',
-                        serverMessageId: 143
-                    }
-               }
-             }, { quoted: {
-            key: {
-                fromMe: false,
-                participant: `0@s.whatsapp.net`,
-                remoteJid: "status@broadcast"
-            },
-            message: {
-                contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
-                }
-            }
-        } });
-    
-      await conn.sendMessage(from, {
+        await conn.sendMessage(from, {
     audio: { url: data.result.downloadUrl },
     mimetype: "audio/mpeg",
-    fileName: `${yts.title}.mp3`,
+    fileName: `${song.title}.mp3`,
     contextInfo: {
         externalAdReply: {
-            title: yts.title,
+            title: "hy",
             body: "Follow our WhatsApp Channel",
             mediaType: 1,
-            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            mediaUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
+            thumbnailUrl: yts.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
+            sourceUrl: 'https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y',
+            mediaUrl: 'https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
     }
-}, { quoted: {
-            key: {
-                fromMe: false,
-                participant: `0@s.whatsapp.net`,
-                remoteJid: "status@broadcast"
-            },
-            message: {
-                contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
-                }
-            }
-        } });
-    
-    await conn.sendMessage(from, {
-    document: { url: data.result.downloadUrl },
-    fileName: `${yts.title}.mp3`,
-    mimetype: "audio/mpeg",
-        contextInfo: {
-        externalAdReply: {
-            title: yts.title,
-            body: "Follow our WhatsApp Channel",
-            mediaType: 1,
-            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            mediaUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            showAdAttribution: true,
-            renderLargerThumbnail: true
-        }
-    }
-}, { quoted: {
-            key: {
-                fromMe: false,
-                participant: `0@s.whatsapp.net`,
-                remoteJid: "status@broadcast"
-            },
-            message: {
-                contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
-                }
-            }
-        } });
-        
+}, { quoted: mek });
 
     } catch (error) {
         console.error(error);
