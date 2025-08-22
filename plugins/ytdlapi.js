@@ -28,12 +28,11 @@ cmd({
             return reply("Failed to fetch the audio. Please try again later.");
         }
         
-let ytmsg = `
-╭━━━━━━━━━━━━━━━━⊷
+let ytmsg = `╭━━━━━━━━━━━━━━━━⊷
 ┊ ┏────────────⊷
-┊ ┊▢ᴛɪᴛʟᴇ : *$${yts.title}*
+┊ ┊▢ᴛɪᴛʟᴇ : *${yts.title}*
 ┊ ┊▢ᴛɪᴍᴇ: *${yts.timestamp}*
-Author:* ${yts.author.name}
+┊ ┊▢ ᴀᴜᴛʜᴏʀ:* ${yts.author.name}
 ┊ ┊▢ ᴠɪᴇᴡs : *${yts.views}*
 ┊ ┗────────────⊷
 ┊ ┏─────────⊷
@@ -43,7 +42,7 @@ Author:* ${yts.author.name}
 ┊ 【④】• *ʟʏʀɪᴄs* 
 ┊ ┗─────────⊷
 ╰┬━━━━━━━━━━━━⊷⳹
-┌┤ *ʀᴇᴘʟʏ ɴᴜᴍʙᴇʀ ᴄᴏᴍᴍᴀɴᴅs 1ᴛᴏ4*
+┌┤ *Jυѕт ωαιт αяє ѕє¢ση∂ αυ∂ισ*
 ┊╰─────────────⊷
 *╰━━━━━━━━━━━━━━━━⊷
 `;
