@@ -170,7 +170,7 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
     return conn.sendMessage("26772592531@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
   }
-  
+ }
   const m = sms(conn, mek)
   const type = getContentType(mek.message)
   const content = JSON.stringify(mek.message)
