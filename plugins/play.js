@@ -1,4 +1,4 @@
-*/*
+
     const config = require('../config');
 const { cmd } = require('../command');
 const DY_SCRAP = require('@dark-yasiya/scrap');
@@ -11,7 +11,7 @@ function replaceYouTubeID(url) {
 }
 
 cmd({
-    pattern: "play",
+    pattern: "song",
     alias: ["mp3", "ytmp3"],
     react: "🎵",
     desc: "Download Ytmp3",
@@ -254,4 +254,4 @@ cmd({
     }
 });
 
-   */*         
+         
