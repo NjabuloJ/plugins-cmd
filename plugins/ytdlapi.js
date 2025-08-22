@@ -161,6 +161,15 @@ let ytmsg = `
                         newsletterJid: '120363399999197102@newsletter',
                         newsletterName: '╭••➤®Njabulo Jb',
                         serverMessageId: 143
+                    },
+                forwardingScore: 999,
+                externalAdReply: {
+                    title: yts.title,
+                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    thumbnailUrl: yts.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
+                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    mediaType: 1,
+                    renderSmallThumbnail: true
                     }
                }
              }, { quoted: {
@@ -182,36 +191,6 @@ let ytmsg = `
     mimetype: "audio/mpeg",
     fileName: `${yts.title}.mp3`,
     contextInfo: {
-        externalAdReply: {
-            title: yts.title,
-            body: "Follow our WhatsApp Channel",
-            mediaType: 1,
-            thumbnailUrl: yts.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            mediaUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            showAdAttribution: true,
-            renderLargerThumbnail: true
-        }
-    }
-}, { quoted: {
-            key: {
-                fromMe: false,
-                participant: `0@s.whatsapp.net`,
-                remoteJid: "status@broadcast"
-            },
-            message: {
-                contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
-                }
-            }
-        } });
-    
-    await conn.sendMessage(from, {
-    document: { url: data.result.downloadUrl },
-    fileName: `${yts.title}.mp3`,
-    mimetype: "audio/mpeg",
-        contextInfo: {
         externalAdReply: {
             title: yts.title,
             body: "Follow our WhatsApp Channel",
