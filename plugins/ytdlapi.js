@@ -4,9 +4,9 @@ const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 
 // MP3 song download
 cmd({ 
-    pattern: "songx", 
+    pattern: "play", 
     alias: ["ytdl3x", "playx"], 
-    react: "🎶", 
+    react: "🎧", 
     desc: "Download YouTube song", 
     category: "download", 
     use: '.song < Yt url or Name >', 
@@ -61,7 +61,7 @@ let ytmsg = `╭━━━━━━━━━━━━━━━━⊷
                 forwardingScore: 999,
                 externalAdReply: {
                     title: yts.title,
-                    body: "📡ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ",
+                    body: "Tys YouTube",
                     thumbnailUrl: yts.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
                     mediaType: 1,
@@ -76,7 +76,7 @@ let ytmsg = `╭━━━━━━━━━━━━━━━━⊷
             },
             message: {
                 contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
+                    
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
                 }
             }
@@ -106,7 +106,7 @@ let ytmsg = `╭━━━━━━━━━━━━━━━━⊷
             },
             message: {
                 contactMessage: {
-                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
+                    
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
                 }
             }
